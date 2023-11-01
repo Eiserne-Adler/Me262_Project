@@ -1,0 +1,14 @@
+wave = "Effects/Aircrafts/A-4E-C/a-4e_EngineWindUp.ogg"
+inner_radius = 100
+gain = 6.0
+attack = 0.1
+release = 0.1
+position = {-0.37, 0.0, 0.0} 
+pitch = 1.0
+lowpass = 24000.0
+
+-- play: engine air hose released, air moving into engines
+-- once
+-- lowpass = 24000.0
+-- cross-fade a-4e_EngineWindConstant.sdef
+-- utilize the various variables (notably position and lowpass filter) in a a-4e_HydraulicsSpoilersMove.sdef

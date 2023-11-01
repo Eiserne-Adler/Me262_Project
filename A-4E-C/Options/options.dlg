@@ -1,0 +1,440 @@
+-- Layout Variables
+
+local MarginLeft = 56
+local LeftColumnX = MarginLeft
+local LeftColumnWidth = 500
+local LeftColumnLabelWidth = 200
+local LeftColumnComboListX = LeftColumnX + LeftColumnLabelWidth
+
+-- Styles
+
+local HelpSkin = {
+	["params"] = {
+		["name"] = "staticSkin2",
+	},
+	["states"] = {
+		["released"] = {
+			[1] = {
+				["text"] = {
+					["fontSize"] = 11,
+					["horzAlign"] = {
+						["type"] = "min"
+					}
+				}
+			}
+		}
+	}
+}
+
+local CheckBoxSkin = {
+	["params"] = {
+		["name"] = "checkBoxSkin_options",
+	},
+}
+
+local SliderSkin = {
+	["params"] = {
+		["name"] = "horzSliderSkin_options",
+	},
+}
+
+-- Content
+
+dialog = {
+	["children"] = {
+		["containerPlugin"] = {
+			["children"] = {
+				--------------------------------------------
+				-- Options Title
+				--------------------------------------------
+
+				["nameLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 18,
+							["w"] = 454,
+							["x"] = 25,
+							["y"] = 41
+						},
+						["enabled"] = true,
+						["text"] = "$A4E_AIRCRAFTNAME",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsTitleSkin"
+						}
+					},
+					["type"] = "Static"
+				},
+				
+				--------------------------------------------
+				-- Trimspeed Option
+				--------------------------------------------
+
+				["trimSpeedLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 260,
+							["x"] = LeftColumnX,
+							["y"] = 100
+						},
+						["enabled"] = true,
+						["text"] = "$TRIMSPEEDL",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin"
+						}
+					},
+					["type"] = "Static"
+				},
+				["trimSpeedComboList"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 180,
+							["x"] = LeftColumnComboListX,
+							["y"] = 100
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "Item1",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "comboListSkin_options"
+						}
+					},
+					["type"] = "ComboList"
+				},
+
+				--------------------------------------------
+				-- Cockpit Shake Slider
+				--------------------------------------------
+				["cockpitShakeLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 100,
+							["x"] = LeftColumnX,
+							["y"] = 150,
+						},
+						["enabled"] = true,
+						["text"] = "$A4E_COCKPIT_SHAKE_SLIDER_TEXT",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["cockpitShakeSlider"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 300,
+							["x"] = LeftColumnX + 150,
+							["y"] = 150,
+						},
+						["enabled"] = true,
+						["step"] = 1,
+						["range"] = {
+							["max"] = 200,
+							["min"] = 0,
+						},
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = SliderSkin,
+					["type"] = "HorzSlider",
+				},
+				["cockpitShakeWidget"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 50,
+							["x"] = LeftColumnX + 450,
+							["y"] = 150,
+						},
+						["enabled"] = true,
+						["text"] = "0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsSliderValueSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["cockpitShakeHelpLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 500,
+							["x"] = LeftColumnX,
+							["y"] = 150 + 20,
+						},
+						["enabled"] = true,
+						["text"] = "$A4E_COCKPIT_SHAKE_SLIDER_HELP",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = HelpSkin,
+					["type"] = "Static",
+				},
+
+				--------------------------------------------
+				-- FFB Required Deflection for CSS
+				--------------------------------------------
+				["cssActivateLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 200,
+							["x"] = LeftColumnX,
+							["y"] = 220,
+						},
+						["enabled"] = true,
+						["text"] = "$A4E_COCKPIT_CSS_TEXT",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["cssActivateSlider"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 300,
+							["x"] = LeftColumnX + 150,
+							["y"] = 220,
+						},
+						["enabled"] = true,
+						["step"] = 1,
+						["range"] = {
+							["max"] = 200,
+							["min"] = 0,
+						},
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = SliderSkin,
+					["type"] = "HorzSlider",
+				},
+				["cssActivateWidget"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 50,
+							["x"] = LeftColumnX + 450,
+							["y"] = 220,
+						},
+						["enabled"] = true,
+						["text"] = "0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsSliderValueSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["cssActivateHelpLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 500,
+							["x"] = LeftColumnX,
+							["y"] = 220 + 20,
+						},
+						["enabled"] = true,
+						["text"] = "$A4E_COCKPIT_CSS_HELP",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = HelpSkin,
+					["type"] = "Static",
+				},
+				
+				--------------------------------------------
+				-- Catapult Check Option
+				--------------------------------------------
+
+				["wheelBrakeAssistLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 200,
+							["x"] = LeftColumnX + 25,
+							["y"] = 290,
+						},
+						["enabled"] = true,
+						["text"] = "$A4E_WHEEL_BRAKE_ASSIST_CHECK_LABEL",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["wheelBrakeAssistCheckbox"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 50,
+							["x"] = LeftColumnX,
+							["y"] = 292,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$A4E_WHEEL_BRAKE_ASSIST_CHECK_TOOLTIP",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = CheckBoxSkin,
+					["type"] = "CheckBox",
+				},
+				["wheelBrakeAssistHelp"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 40,
+							["w"] = 800,
+							["x"] = LeftColumnX,
+							["y"] = 290 + 20,
+						},
+						["enabled"] = true,
+						["text"] = "$A4E_WHEEL_BRAKE_ASSIST_CHECK_HELP",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = HelpSkin,
+					["type"] = "Static",
+				},
+				["oldRadarLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 200,
+							["x"] = LeftColumnX + 25,
+							["y"] = 350,
+						},
+						["enabled"] = true,
+						["text"] = "$A4E_OLD_RADAR_CHECK_LABEL",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["oldRadarCheckbox"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 50,
+							["x"] = LeftColumnX,
+							["y"] = 352,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$A4E_OLD_RADAR_CHECK_TOOLTIP",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = CheckBoxSkin,
+					["type"] = "CheckBox",
+				},
+				--------------------------------
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 600,
+					["w"] = 974,
+					["x"] = 0,
+					["y"] = 0
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin"
+				}
+			},
+			["type"] = "Panel"
+		}
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 851,
+			["w"] = 1135,
+			["x"] = 0,
+			["y"] = 0
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin"
+		}
+	},
+	["type"] = "Window"
+}

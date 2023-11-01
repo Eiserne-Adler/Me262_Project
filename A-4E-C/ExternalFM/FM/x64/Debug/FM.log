@@ -1,0 +1,158 @@
+﻿D:\Games\VS2022\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  AeroElement.cpp
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,4): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,14): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,24): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(30,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(41,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(42,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(75,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(86,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(87,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Interface.h(226,26): warning C4477: 'sscanf_s' : format string '%p' requires an argument of type 'void **', but variadic argument 1 has type 'uintptr_t *'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Engine2.h(31,1): warning C4005: 'PI': macro redefinition
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Maths.h(23,1): message : see previous definition of 'PI'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(380,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(757,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(767,107): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(772,107): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(777,69): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(782,76): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(792,79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(797,75): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(802,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(806,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(811,91): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(815,77): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(819,67): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\AeroElement.h(139,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  AirDataComputer.cpp
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,4): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,14): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,24): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Interface.h(226,26): warning C4477: 'sscanf_s' : format string '%p' requires an argument of type 'void **', but variadic argument 1 has type 'uintptr_t *'
+  Avionics.cpp
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,4): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,14): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,24): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Interface.h(226,26): warning C4477: 'sscanf_s' : format string '%p' requires an argument of type 'void **', but variadic argument 1 has type 'uintptr_t *'
+  FlightModel.cpp
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,4): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,14): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,24): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(30,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(41,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(42,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(75,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(86,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(87,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Engine2.h(31,1): warning C4005: 'PI': macro redefinition
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Maths.h(23,1): message : see previous definition of 'PI'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(380,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(757,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(767,107): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(772,107): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(777,69): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(782,76): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(792,79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(797,75): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(802,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(806,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(811,91): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(815,77): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(819,67): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Interface.h(226,26): warning C4477: 'sscanf_s' : format string '%p' requires an argument of type 'void **', but variadic argument 1 has type 'uintptr_t *'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\AeroElement.h(139,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\FlightModel.cpp(165,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\FlightModel.cpp(166,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\FlightModel.cpp(439,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\FlightModel.cpp(463,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\FlightModel.cpp(557,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\FlightModel.cpp(569,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Radar.cpp
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,4): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,14): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,24): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Interface.h(226,26): warning C4477: 'sscanf_s' : format string '%p' requires an argument of type 'void **', but variadic argument 1 has type 'uintptr_t *'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(227,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(234,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(261,15): warning C4244: '=': conversion from 'long double' to 'size_t', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(356,12): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(357,12): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(432,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(81,86): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(97,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(108,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(156,103): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(201,91): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(204,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(207,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(467,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(501,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(530,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(536,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(702,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(816,40): warning C4244: 'argument': conversion from 'double' to 'size_t', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.cpp(816,21): warning C4244: 'argument': conversion from 'double' to 'size_t', possible loss of data
+  RadarScope.cpp
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,4): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,14): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,24): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Interface.h(226,26): warning C4477: 'sscanf_s' : format string '%p' requires an argument of type 'void **', but variadic argument 1 has type 'uintptr_t *'
+  Scooter.cpp
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,4): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,14): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Vec3.h(174,24): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(30,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(41,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(42,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(75,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(86,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Table.h(87,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Engine2.h(31,1): warning C4005: 'PI': macro redefinition
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Maths.h(23,1): message : see previous definition of 'PI'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(380,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(757,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(767,107): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(772,107): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(777,69): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(782,76): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(792,79): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(797,75): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(802,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(806,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(811,91): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(815,77): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Airframe.h(819,67): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Interface.h(226,26): warning C4477: 'sscanf_s' : format string '%p' requires an argument of type 'void **', but variadic argument 1 has type 'uintptr_t *'
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\AeroElement.h(139,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(227,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(234,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(261,15): warning C4244: '=': conversion from 'long double' to 'size_t', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(356,12): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(357,12): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Radar.h(432,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Asteroids.h(346,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(868,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(869,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(871,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(872,54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(874,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(876,54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(877,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(879,54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(880,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(882,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(886,61): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(994,3): warning C4984: 'if constexpr' is a C++17 language extension
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(1048,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(1049,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(1251,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Scooter.cpp(1254,48): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Input.h(241): warning C4172: returning address of local variable or temporary
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Input.h(229): warning C4172: returning address of local variable or temporary
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Input.h(244): warning C4172: returning address of local variable or temporary
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\Input.h(232): warning C4172: returning address of local variable or temporary
+D:\Games\VS2022\community-a4e-c-master\A-4E-C\ExternalFM\FM\AeroElement.cpp(223): warning C4715: 'Scooter::AeroControlElement::controlInput': not all control paths return a value
+  FM.vcxproj -> C:\Users\Egno\Desktop\Teste\A-4E-C.dll
